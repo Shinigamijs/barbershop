@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap');
+
+@import "resets.scss";
+@import "normalizez.scss";
+@import "global.scss";
+@import "overall.scss";
+
+@import "components/header.scss";
+@import "components/hero.scss";
+@import "components/history.scss";
+@import "components/services.scss";
+@import "components/gallery.scss";
+@import "components/footer.scss";
+
+@import 'media';

@@ -1,0 +1,22 @@
+.hero {
+    margin-top: 25px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title {
+        text-align: start;
+    }
+    &__bg {
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+    }
+    .button {
+        margin-top: 45px;
+    }
+    .title {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__logo {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .descr {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

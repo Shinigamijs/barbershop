@@ -1,0 +1,33 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    &__profile {
+        margin-right: 25px;
+    }
+    &__notification {
+        margin-right: 25px;
+    }
+    .logo {
+        max-width: 74px;
+        max-height: 74px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        img {
+            display: block;
+        }
+    }
+}

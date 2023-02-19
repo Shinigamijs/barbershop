@@ -1,0 +1,112 @@
+.container {
+    max-width: 1230px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #163561;
+    text-align: center;
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 25px;
+    color: #153461;
+    opacity: 0.65;
+}
+
+.elected {
+    color: #FBB400;
+}
+
+.logo {
+    margin-right: 150px;
+    img {
+        max-width: 74.22px;
+        min-height: 65.95px;
+    }
+}
+
+.button {
+    padding: 23px 41px 23px 41px;
+    max-width: 188px;
+    max-height: 75px;
+    background: #99BAED;
+    border: none;
+    border-radius: 1.2rem;
+    text-align: center;
+    font-family: 'Catamaran';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.5s ease;
+    background: #4b85db;
+}
+
+.social {
+    margin-top: 45px;
+    max-width: 250px;
+    max-height: auto;
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item {
+        display: block;
+        margin-left: 20px;
+        padding: 10px; 
+        border-radius: 50%;
+        background-color: #99BAED;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &__item:first-child {
+        margin: 0;
+    }
+    &__item:hover {
+        transition: .5s ease;
+        background-color: #758fb6;
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 25px;
+        color: #163561;
+    }
+    &__link:hover {
+        padding: 35px 5px 5px 5px;
+        background: #A3C1EF;
+        color:#FFFFFF;
+        border-radius: 5px;
+        transition: .8s ease;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    }
+    &__item:not(:last-child) {
+        margin-right: 48px;
+    }
+    &__selected {
+        padding: 35px 5px 5px 5px;
+        background: #A3C1EF;
+        color:#FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    }
+}
